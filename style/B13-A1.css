@@ -278,3 +278,40 @@ padding-top: 16px;
     height: 346px;
     max-width: 1340px;
 }
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    /* width: 100%; */
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+
+
+
+
+.social-link p{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+}
+
+.social-link img:hovor{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.social-link-png img{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+    /* background-color: #F7F6F2; */
+    margin-left: 10px;
+}
