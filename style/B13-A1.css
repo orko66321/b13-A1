@@ -1,10 +1,11 @@
 .inter{
-  font-family: "Inter", serif;
+  font-family: "Inter";
   font-optical-sizing: auto;
 }
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter";
 }
 
 .nav-container{
@@ -90,3 +91,176 @@ font-weight: 600;
 cursor: pointer;
 margin-top: 32px;
  }
+#card-section{
+    padding: 60px 120px;
+    max-width: 1340px;
+    
+}
+
+
+ .section-titel{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+
+font-family: Inter;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+ }
+ .section-info{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+
+font-family: Inter;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ .card-container{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    /* border: 1px solid red; */
+ }
+ .card{
+    /* border: 1px solid red; */
+    margin: 24px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 50px #62738261;
+    width: 302px;
+    height: 280px;
+    /* padding:20px 60px; */
+    text-align: center;
+    padding-top: 30px;
+ }
+
+
+
+ .card-png{
+    background-color: rgba(249, 85, 85, 1);
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    align-items: center;
+ }
+ .card-titel{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+/* text-align: center; */
+ }
+ .card-info{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+padding-top:16px ;
+/* text-align: center; */
+ }
+
+ .brain-container{
+    margin: 120px;
+    display: flex;
+    max-width: 1340px;
+ }
+ .text-container{
+    padding: 102px 70px;
+ }
+ .solution{
+color:#30B868;
+font-size: 10px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+text-transform: uppercase;
+ }
+ .second-brain{
+color:#001931;
+font-family: Inter;
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 58px;
+text-align: left;
+text-transform: capitalize;
+ }
+ .brain-info{
+    color: #627382;
+font-family: Inter;
+font-style: Regular;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+padding: 16px;
+ }
+ .list{
+    color: rgba(0, 25, 49, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+text-align: left;}
+
+.ul-list{
+    list-style:none;
+    padding-top: 20px;
+    justify-content: center;
+    }
+
+
+       
+#challenge{
+    text-align: center;
+    margin: 120px 120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+
+}
+.cl-titel{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(0, 25, 49, 1);
+    text-align: center;
+    font-family: inter;
+
+}
+.cl-p{
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: inter, regular;
+    line-height: 24px;
+    padding: 16px;
+    color: #627382;
+}
+.cl-btn{
+padding: 12px 20px;
+background-color: #469165;
+color:rgba(255, 255, 255, 1);
+border-radius: 4px;
+border: none;
+font-weight: 600;
+cursor: pointer;
+/* margin-right: 16px;
+margin-top: px; */
+
+}
+.cl-foot{
+    color:#627382;
+font-family: Inter;
+font-style: Regular;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+padding-top: 16px;
+}
